@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(
+        135deg,
+        #fff8ed,
+        #f1f8e9,
+        #fff3c4
+    );
+    color: #3b3b3b;
+    line-height: 1.6;
+}
+
+
+
+
+header {
+    background-color: rgba(255,255,255,0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #527a3b;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+
+nav a:hover {
+    color: #d98b2b;
+}
+
+
+section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #527a3b;
+}
+
+
+h2 {
+    color: #527a3b;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+h3 {
+    color: #d98b2b;
+}
+
+
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero p {
+    max-width: 650px;
+    margin: 20px;
+}
+
+
+
+
+.boton,
+.boton-quiz {
+    background-color: #d98b2b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.boton:hover,
+.boton-quiz:hover {
+    background-color: #b8731e;
+}
+
+
+
+
+.frutas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.fruta {
+    background-color: rgba(255,255,255,0.9);
+    width: 280px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+
+.fruta:hover {
+    transform: translateY(-8px);
+}
+
+
+.fruta img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.fruta h4 {
+    margin: 15px;
+    color: #527a3b;
+    font-size: 20px;
+}
+
+
+.fruta ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+
+.habitos,
+.bloques {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.habito,
+.bloque {
+    background-color: rgba(255,255,255,0.9);
+    width: 220px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+
+.habito:hover,
+.bloque:hover {
+    transform: translateY(-8px);
+}
+
+
+
+.mitos-contenedor {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.mito {
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #527a3b;
+}
+
+
+
+
+.quiz {
+    background-color: rgba(234,245,223,0.9);
+    border-radius: 40px;
+}
+
+
+
+
+#mensaje-final {
+    background-color: #527a3b;
+    color: white;
+}
+
+
+#mensaje-final h2 {
+    color: white;
+}
